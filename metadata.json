@@ -1,0 +1,6 @@
+{
+  "name": "LX 한국국토정보공사 순천지사 지적측량 안내",
+  "description": "LX 한국국토정보공사 순천지사 공식 지적측량 모바일 안내 서비스 - 경계복원측량, 지적현황측량, 분할측량, 온라인 접수 및 오시는 길 안내",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
