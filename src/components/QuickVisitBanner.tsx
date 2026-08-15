@@ -27,7 +27,7 @@ export const QuickVisitBanner: React.FC<QuickVisitBannerProps> = ({ onNavigateTo
             <div className="space-y-1.5 text-xs sm:text-sm text-gray-600">
               <p className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-[#008352] shrink-0" />
-                <span className="font-medium text-gray-900">{LX_CONTACT_INFO.addressRoad} (조례동)</span>
+                <span className="font-medium text-gray-900">{LX_CONTACT_INFO.addressRoad}</span>
               </p>
               <p className="flex items-center gap-2">
                 <Clock className="w-4 h-4 text-gray-400 shrink-0" />

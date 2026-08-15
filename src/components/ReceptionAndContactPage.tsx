@@ -152,7 +152,7 @@ export const ReceptionAndContactPage: React.FC<PageProps> = ({ onNavigate }) => 
                 <span className="text-[10px] font-bold bg-gray-200 text-gray-700 px-2 py-0.5 rounded-md">
                   지사 대표 번호
                 </span>
-                <span className="text-xs text-gray-500">순천시 조례동 사옥</span>
+                <span className="text-xs text-gray-500">순천지사 사옥</span>
               </div>
               <h3 className="text-base font-bold text-gray-900 mb-1">
                 순천지사 일반 문의
@@ -248,7 +248,7 @@ export const ReceptionAndContactPage: React.FC<PageProps> = ({ onNavigate }) => 
                 LX 한국국토정보공사 순천지사
               </span>
             </div>
-            <span className="text-xs text-gray-400">전남 순천시 충효로 145 (조례동)</span>
+            <span className="text-xs text-gray-400">{LX_CONTACT_INFO.addressRoad}</span>
           </div>
 
           {/* Map Visual Graphic */}
@@ -272,27 +272,27 @@ export const ReceptionAndContactPage: React.FC<PageProps> = ({ onNavigate }) => 
                 LX
               </div>
               <div className="font-bold text-xs sm:text-sm text-gray-900">LX 한국국토정보공사 순천지사</div>
-              <div className="text-[11px] text-gray-500">순천시 충효로 145 (조례동)</div>
+              <div className="text-[11px] text-gray-500">{LX_CONTACT_INFO.addressRoad}</div>
             </div>
           </div>
 
-          {/* 1-Click Map Navigation Links (네이버 지도, 카카오맵, 티맵) */}
+          {/* 1-Click Map Navigation Links (네이버 지도, 카카오맵) */}
           <div className="pt-1">
             <div className="text-xs font-semibold text-gray-300 mb-2 flex items-center gap-1.5">
               <Navigation className="w-3.5 h-3.5 text-emerald-400" />
               <span>모바일 지도 원클릭 길찾기 앱 열기:</span>
             </div>
-            <div className="grid grid-cols-3 gap-2 sm:gap-3">
+            <div className="grid grid-cols-2 gap-3">
               {/* Naver Map */}
               <a
                 id="btn-open-naver-map"
                 href={LX_CONTACT_INFO.naverMapUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-col items-center justify-center py-2.5 px-2 bg-[#03C75A] hover:bg-[#02b350] text-white rounded-lg text-xs font-bold shadow-2xs transition-all active:scale-98"
+                className="flex items-center justify-center gap-2 py-3 px-3 bg-[#03C75A] hover:bg-[#02b350] text-white rounded-lg text-xs sm:text-sm font-bold shadow-2xs transition-all active:scale-98 cursor-pointer"
               >
-                <span className="text-sm font-bold">N</span>
-                <span>네이버 지도</span>
+                <span className="text-sm font-bold bg-white text-[#03C75A] w-5 h-5 rounded-full flex items-center justify-center">N</span>
+                <span>네이버 지도 길찾기</span>
               </a>
 
               {/* Kakao Map */}
@@ -301,22 +301,10 @@ export const ReceptionAndContactPage: React.FC<PageProps> = ({ onNavigate }) => 
                 href={LX_CONTACT_INFO.kakaoMapUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-col items-center justify-center py-2.5 px-2 bg-[#FEE500] hover:bg-[#f0d800] text-gray-900 rounded-lg text-xs font-bold shadow-2xs transition-all active:scale-98"
+                className="flex items-center justify-center gap-2 py-3 px-3 bg-[#FEE500] hover:bg-[#f0d800] text-gray-900 rounded-lg text-xs sm:text-sm font-bold shadow-2xs transition-all active:scale-98 cursor-pointer"
               >
-                <span className="text-sm font-bold text-gray-900">K</span>
-                <span>카카오맵</span>
-              </a>
-
-              {/* Tmap */}
-              <a
-                id="btn-open-tmap"
-                href={LX_CONTACT_INFO.tmapUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex flex-col items-center justify-center py-2.5 px-2 bg-gray-800 hover:bg-gray-700 text-white rounded-lg text-xs font-bold border border-gray-600 shadow-2xs transition-all active:scale-98"
-              >
-                <span className="text-sm font-bold text-rose-400">T</span>
-                <span>티맵 길찾기</span>
+                <span className="text-sm font-bold bg-[#3C1E1E] text-[#FEE500] w-5 h-5 rounded-full flex items-center justify-center">K</span>
+                <span>카카오맵 길찾기</span>
               </a>
             </div>
           </div>
@@ -329,7 +317,7 @@ export const ReceptionAndContactPage: React.FC<PageProps> = ({ onNavigate }) => 
             <span>대중교통 이용 시</span>
           </div>
           <p className="text-xs text-gray-600 leading-relaxed">
-            • 시내버스: 조례동 충효로 방면 버스 노선 탑승 후 <strong>[한국국토정보공사]</strong> 또는 <strong>[조례초교]</strong> 정류장 하차 후 도보 2분 거리입니다.
+            • 시내버스: 연향동 방면 시내버스 탑승 후 <strong>[LX한국국토정보공사 순천지사]</strong> 인근 정류장에서 하차하시면 편리하게 방문하실 수 있습니다.
           </p>
         </div>
       </section>

@@ -8,11 +8,11 @@ export const LX_CONTACT_INFO = {
   receptionPhoneRaw: '0617495530',
   branchPhone: '061-804-6360', // 순천지사 일반 문의
   branchPhoneRaw: '0618046360',
-  faxNumber: '061-722-6385',
+  faxNumber: '061-722-6389',
   onlinePortalUrl: 'https://baro.lx.or.kr',
   addressRoad: '전라남도 순천시 대석길 49 (연향동)',
   addressJibun: '전라남도 순천시 연향동 1477-3',
-  postalCode: '57945',
+  postalCode: '57986',
   operatingHours: '평일 09:00 ~ 18:00 (토·일요일 및 공휴일 휴무)',
   lunchTime: '12:00 ~ 13:00 (민원실 상시 접수 가능)',
   parkingInfo: '사옥 내 민원인 전용 무료 지상 주차장 완비 (방문 고객 무료 주차)',
@@ -21,9 +21,8 @@ export const LX_CONTACT_INFO = {
     lat: 34.958742,
     lng: 127.525891,
   },
-  naverMapUrl: 'https://map.naver.com/p/search/LX%ED%95%9c%EA%B5%AD%EA%B5%AD%ED%86%A0%EC%A0%95%EB%B3%B4%EA%B3%B5%EC%82%AC%20%EC%88%9C%EC%81%9C%EC%A7%80%EC%82%AC',
-  kakaoMapUrl: 'https://map.kakao.com/link/search/LX한국국토정보공사 순천지사',
-  tmapUrl: 'https://tmap.life/search?q=LX한국국토정보공사순천지사',
+  naverMapUrl: 'https://map.naver.com/p/search/LX%ED%95%9C%EA%B5%AD%EA%B5%AD%ED%86%A0%EC%A0%95%EB%B3%B4%EA%B3%B5%EC%82%AC%20%EC%88%9C%EC%B2%9C%EC%A7%80%EC%82%AC?c=15.00,0,0,0,dh&placePath=%2Fhome%3Ffrom%3Dmap%26fromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202608151909%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3DLX%ED%95%9C%EA%B5%AD%EA%B5%AD%ED%86%A0%EC%A0%95%EB%B3%B4%EA%B3%B5%EC%82%AC%20%EC%88%9C%EC%B2%9C%EC%A7%80%EC%82%AC',
+  kakaoMapUrl: 'https://map.kakao.com/link/search/LX한국국토정보공사순천지사',
 };
 
 export const SURVEY_SERVICES: Record<'boundary-restoration' | 'cadastral-status' | 'cadastral-subdivision', SurveyService> = {
