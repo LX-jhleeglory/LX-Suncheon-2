@@ -15,7 +15,7 @@ export const KeyFeatures: React.FC<KeyFeaturesProps> = ({ onSelectService }) => 
       iconEmoji: '🏡',
       iconComponent: Home,
       badge: '이웃과 경계가 모호할 때',
-      badgeColor: 'bg-emerald-50 text-[#008352] border-emerald-200/80',
+      badgeColor: 'bg-teal-50 text-teal-700 border-teal-200/80,
       description: '이웃과 경계가 모호할 때 도면상 경계를 현장에 복원하여 분쟁을 예방합니다.',
       detailBullets: [
         '담장, 울타리 설치 전 정확한 경계 확인',
@@ -39,7 +39,7 @@ export const KeyFeatures: React.FC<KeyFeaturesProps> = ({ onSelectService }) => 
         '국공유지 점용 현황 및 면적 확인',
       ],
       tag: '준공·사용승인 필수',
-      popular: false,
+      popular: true,
     },
     {
       id: 'cadastral-subdivision' as PageType,
@@ -55,7 +55,7 @@ export const KeyFeatures: React.FC<KeyFeaturesProps> = ({ onSelectService }) => 
         '순천시청 개발행위허가 사전 상담 필수',
       ],
       tag: '사전 인허가 연계',
-      popular: false,
+      popular: true,
     },
   ];
 
