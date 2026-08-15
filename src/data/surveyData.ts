@@ -6,8 +6,8 @@ export const LX_CONTACT_INFO = {
   fullBranchTitle: 'LX 한국국토정보공사 순천지사',
   receptionPhone: '061-749-5530', // 순천시청 접수창구
   receptionPhoneRaw: '0617495530',
-  branchPhone: '061-804-6381', // 순천지사 일반 문의
-  branchPhoneRaw: '0618046381',
+  branchPhone: '061-804-6360', // 순천지사 일반 문의
+  branchPhoneRaw: '0618046360',
   faxNumber: '061-722-6385',
   onlinePortalUrl: 'https://baro.lx.or.kr',
   addressRoad: '전라남도 순천시 백강로 379 (조례동)',
