@@ -15,7 +15,7 @@ export const KeyFeatures: React.FC<KeyFeaturesProps> = ({ onSelectService }) => 
       iconEmoji: '🏡',
       iconComponent: Home,
       badge: '이웃과 경계가 모호할 때',
-      badgeColor: 'bg-teal-50 text-teal-700 border-teal-200/80,
+      badgeColor: 'bg-teal-50 text-teal-700 border-teal-200/80',
       description: '이웃과 경계가 모호할 때 도면상 경계를 현장에 복원하여 분쟁을 예방합니다.',
       detailBullets: [
         '담장, 울타리 설치 전 정확한 경계 확인',
