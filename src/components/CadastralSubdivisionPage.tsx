@@ -57,7 +57,7 @@ export const CadastralSubdivisionPage: React.FC<PageProps> = ({ onNavigate }) =>
               className="inline-flex items-center justify-center gap-2 bg-white text-[#008352] hover:bg-emerald-50 font-bold px-5 py-2.5 rounded-lg text-xs sm:text-sm shadow-2xs transition-all active:scale-98 cursor-pointer"
             >
               <Phone className="w-4 h-4 text-[#008352]" />
-              <span>순천시청 접수창구 문의 (061-749-5530)</span>
+              <span>측량 접수 및 인허가 문의 (061-749-5530)</span>
             </a>
 
             <a
