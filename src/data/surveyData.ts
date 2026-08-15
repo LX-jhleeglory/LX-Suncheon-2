@@ -168,7 +168,7 @@ export const SURVEY_SERVICES: Record<'boundary-restoration' | 'cadastral-status'
   },
   'cadastral-subdivision': {
     id: 'cadastral-subdivision',
-    title: '지적분할측량',
+    title: '분할측량',
     badge: '토지를 나눌 때',
     tagline: '하나의 땅을 여러 개로, 토지 활용의 가치를 높입니다.',
     iconName: 'FileText',
@@ -272,7 +272,7 @@ export const MAIN_FAQS: FaqItem[] = [
     category: '방문안내',
     question: 'LX 순천지사 방문 시 주차가 편리한가요?',
     answer: '네, LX 순천지사(전남 순천시 백강로 379) 사옥 내에 민원인 전용 넓은 지상 무료 주차장이 완비되어 있어 주차 요금 걱정 없이 편리하게 방문 상담을 받으실 수 있습니다.',
-    highlight: '사옥 내 민원인 전용 무료 주차장 완비 (주차비 무료)',
+    highlight: '사옥 내 민원인 전용 무료 주차장 완비',
   },
 ];
 

@@ -89,7 +89,6 @@ export const KeyFeatures: React.FC<KeyFeaturesProps> = ({ onSelectService }) => 
                 {card.popular && (
                   <div className="absolute -top-2.5 right-5 bg-[#008352] text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-2xs flex items-center gap-1">
                     <Sparkles className="w-2.5 h-2.5 text-emerald-200" />
-                    <span>최다 신청</span>
                   </div>
                 )}
 

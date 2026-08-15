@@ -62,7 +62,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenDiagnostic, onOp
           <a
             id="hero-cta-phone-branch"
             href={`tel:${LX_CONTACT_INFO.branchPhoneRaw}`}
-            className="bg-emerald-900/30 border border-emerald-400/20 text-emerald-100 hover:text-white px-4 py-3 rounded-lg font-semibold text-xs sm:text-sm hover:bg-emerald-900/50 transition-all cursor-pointer"
+            className="bg-emerald-900/30 border border-emerald-400/30 text-emerald-100 hover:text-white px-6 py-3 rounded-lg font-semibold text-xs sm:text-sm hover:bg-emerald-900/60 transition-all cursor-pointer"
           >
             <span>순천지사 직통 ({LX_CONTACT_INFO.branchPhone})</span>
           </a>
