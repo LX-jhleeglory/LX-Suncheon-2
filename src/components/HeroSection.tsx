@@ -38,13 +38,14 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenDiagnostic, onOp
         </p>
 
         {/* CTA Buttons - Professional Polish Style */}
-        <div className="flex flex-wrap items-center gap-3 mb-6">
+        
+        <div className="flex flex-col sm:flex-row items-center gap-3 mb-6 w-full">
           <a
             id="hero-cta-online"
             href={LX_CONTACT_INFO.onlinePortalUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-white text-[#008352] hover:bg-emerald-50 px-6 py-3 rounded-lg font-bold flex items-center justify-center gap-2 text-sm sm:text-base shadow-sm transition-all active:scale-98 cursor-pointer"
+            className="flex-1 w-full bg-white text-[#008352] hover:bg-emerald-50 px-6 py-3 rounded-lg font-bold flex items-center justify-center gap-2 text-sm sm:text-base shadow-sm transition-all active:scale-98 cursor-pointer"
           >
             <span>💻</span>
             <span>온라인 측량 접수</span>
@@ -53,16 +54,16 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenDiagnostic, onOp
           <a
             id="hero-cta-phone-reception"
             href={`tel:${LX_CONTACT_INFO.receptionPhoneRaw}`}
-            className="bg-emerald-900/40 border border-emerald-400/30 hover:bg-emerald-900/60 text-white px-6 py-3 rounded-lg font-bold flex items-center justify-center gap-2 text-sm sm:text-base transition-all active:scale-98 cursor-pointer"
+            className="flex-1 w-full bg-emerald-900/40 border border-emerald-400/30 hover:bg-emerald-900/60 text-white px-6 py-3 rounded-lg font-bold flex items-center justify-center gap-2 text-sm sm:text-base transition-all active:scale-98 cursor-pointer"
           >
             <span>📞</span>
-            <span>061-749-5530 (접수창구)</span>
+            <span>접수창구 (061-749-5530)</span>
           </a>
 
           <a
             id="hero-cta-phone-branch"
             href={`tel:${LX_CONTACT_INFO.branchPhoneRaw}`}
-            className="bg-emerald-900/40 border border-emerald-400/30 hover:bg-emerald-900/60 text-white px-6 py-3 rounded-lg font-bold flex items-center justify-center gap-2 text-sm sm:text-base transition-all active:scale-98 cursor-pointer"
+            className="flex-1 w-full bg-emerald-900/40 border border-emerald-400/30 hover:bg-emerald-900/60 text-white px-6 py-3 rounded-lg font-bold flex items-center justify-center gap-2 text-sm sm:text-base transition-all active:scale-98 cursor-pointer"
           > 
             <span>📞</span>
             <span>순천지사 직통 ({LX_CONTACT_INFO.branchPhone})</span>
