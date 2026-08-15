@@ -24,7 +24,7 @@ export const CadastralSubdivisionPage: React.FC<PageProps> = ({ onNavigate }) =>
       <nav className="flex items-center gap-2 text-xs text-gray-500 font-medium">
         <button onClick={() => onNavigate('main')} className="hover:text-[#008352] cursor-pointer">홈</button>
         <span>&gt;</span>
-        <span className="text-[#008352] font-bold">지적분할측량</span>
+        <span className="text-[#008352] font-bold">분할측량</span>
       </nav>
 
       {/* Hero Header Box */}

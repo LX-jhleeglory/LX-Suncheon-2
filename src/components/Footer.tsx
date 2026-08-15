@@ -53,7 +53,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   onClick={() => { onNavigate('cadastral-subdivision'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
                   className="hover:text-emerald-400 transition-colors cursor-pointer"
                 >
-                  지적분할측량 안내
+                  분할측량 안내
                 </button>
               </li>
               <li>
@@ -81,7 +81,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </p>
               <p className="flex items-center gap-1.5">
                 <MapPin className="w-3.5 h-3.5 text-gray-400" />
-                <span>{LX_CONTACT_INFO.addressRoad} (조례동)</span>
+                <span>{LX_CONTACT_INFO.addressRoad}</span>
               </p>
             </div>
             <a
